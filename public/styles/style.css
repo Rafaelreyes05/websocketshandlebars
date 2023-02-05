@@ -1,0 +1,9 @@
+body{
+    background-color:black;
+    color: antiquewhite;
+}
+
+.producto{
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 25px;
+}
