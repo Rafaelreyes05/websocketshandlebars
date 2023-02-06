@@ -5,13 +5,15 @@ const router = require('./routes/router/router')
 const handlebars = require('express-handlebars')
 const data = require('./data/productos.json')
 const motor = 'handlebars'
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 const app = express();
 const httpServer = new HttpServer(app);
 const io = new IOServer(httpServer);
 
 app.use(express.static("./public"));
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }));
 
 // <------------------------- Configuracion de handlebars ------------------------->
 app.engine(motor,handlebars.engine())

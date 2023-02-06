@@ -1,7 +1,31 @@
-body{
-    background-color:black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
     color: antiquewhite;
-}
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  form{
+    width: 30%;
+    padding-bottom: 10px;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  .submit{
+    width: 100%;
+  }
 
 .producto{
     border-bottom: 1px solid #ffffff;

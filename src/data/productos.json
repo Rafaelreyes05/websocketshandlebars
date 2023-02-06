@@ -97,16 +97,5 @@
         "stock": 10,
         "status": true,
         "category": "deporte"
-    },
-    {
-        "id": 10,
-        "title": "Televisor",
-        "description": "Este es un producto actualizado",
-        "price": 1500,
-        "thumbnail": "/computador.png",
-        "code": "abc201",
-        "stock": 10,
-        "status": true,
-        "category": "deporte"
     }
 ]
